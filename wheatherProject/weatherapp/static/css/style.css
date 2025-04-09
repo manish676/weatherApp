@@ -1,0 +1,94 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 10px 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 150px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.weather-box {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.city-name {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.temp {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.forecast-section h3 {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.forecast-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.forecast-card {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    width: 150px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.forecast-card:hover {
+    transform: translateY(-5px);
+}
+
+.forecast-card h4 {
+    font-size: 20px;
+    margin: 0 0 5px;
+}
+
+.forecast-card p {
+    margin: 4px 0;
+    font-size: 14px;
+}
+
+.weather-icon {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+}
